@@ -1,7 +1,23 @@
-function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
+// function calculateLargestNumber(arrayOfNumbers) {
+//   var temp = 0;
 
-  return 1;
+//   for (var i = 0; i < arrayOfNumbers.length; i++) {
+//     if (arrayOfNumbers[i] > temp) {
+//       temp = arrayOfNumbers[i];
+//     }
+//   }
+//   return temp;
+// }
+
+arr.forEach(calculateLargestNumber(arr));
+
+function calculateLargestNumber(arr) {
+  var temp = 0;
+
+  if (arr[element] > temp) {
+    temp = arr[element];
+  }
+  return temp;
 }
 
 /**                            */
